@@ -1,1 +1,1 @@
-# ITechplemengt-nternship
+# Techplemengt-Internship
