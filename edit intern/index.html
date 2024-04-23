@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap pdview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="wrapper">
+            <div class="col-lg-6" id="product-box">
+                <div class="row" id="main-images">
+                    <div class="col">
+                        <img src="img/ipjone15.jpg" class="img-thumbnail" alt="" id="imagebox">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/ipjone15.jpg" class="img-thumbnail" alt="" onclick="clickimg(this)">
+                    </div>
+                    <div class="col-3">
+                        <img src="img/img2.webp" class="img-thumbnail" alt="" onclick="clickimg(this)">
+                    </div>
+                    <div class="col-3">
+                        <img src="img/vkh.jpg" class="img-thumbnail" alt="" onclick="clickimg(this)">
+                    </div>
+                    <div class="col-3">
+                        <img src="img/img4.jpeg" class="img-thumbnail" alt="" onclick="clickimg(this)">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text">
+                    <p class="brand">Brand: apple</p>
+                    <h2>APPLE Iphone 15 (White, 64GB)</h2>
+                    <div class="review">
+                        <span>(4.6)</span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="price-box">
+                        <p class="price"> &#36;932</p>
+                        <strike>&#36;1076</strike>
+                    </div>
+                    <p>SIZE: <select name="Size" id="" class="form-select">
+                            <option value="select color">Select color</option>
+                            <option value="select color">Black</option>
+                            <option value="select color">Blue</option>
+                            <option value="select color">Green</option>
+                            <option value="select color">White</option>
+                        </select> </p>
+                    <p>Quantity <input type="text" value="1" class="form-control"></p>
+                    <div class="CARTS">
+                        <button type="button" class="btn btn-warning">
+                            <span class=" fa fa-shopping-cart"></span>
+                            Add to Cart
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            <span class="fa fa-shopping-cart"></span>
+                            Buy Now
+                        </button>
+                    </div>
+                    <div class="Highlights">
+                        <span>Highlights</span>
+                        <div class="Highlights-list">
+                            <ul>
+                                <li>128 GB ROM</li>
+                                <li>15.49cm</li>
+                                <li>48mp + 12mp</li>
+                                <li>A16 bio</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <span>Description</span>
+                        <div class="description-details">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi at neque,
+                                assumenda dolores dignissimos tempore commodi odio vitae architecto eaque dolorem sint
+                                laboriosam repudiandae perspiciatis consequuntur itaque rem animi. Fuga laboriosam
+                                dolores dolore earum nisi accusantium cum minus porro! Dignissimos, repellendus omnis
+                                quae obcaecati eos odit neque minus magni quisquam, sed expedita culpa iure? Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Similique ut, tempora odit dolor,
+                                pariatur harum ex tempore neque possimus eveniet, dicta vero sequi fugit accusantium
+                                eum architecto temporibus earum repellendus consequuntur natus asperiores fugiat
+                                deleniti! Necessitatibus veritatis eos architecto. Rem veritatis laudantium iste nisi
+                                eius ad ut illo eum nihil totam dolore dolor deserunt unde repudiandae, similique
+                                molestias quis placeat incidunt! Voluptates id dolorem minima tempora, expedita odit
+                                sapiente ab et omnis optio repellat eum doloribus sit architecto saepe ipsa beatae
+                                aliquam iste. Aspernatur rerum, consequuntur quod eum minima voluptatem, blanditiis
+                                modi fuga neque quos similique officiis. Tenetur placeat magni aspernatur asperiores
+                                consectetur quia quis officia. Saepe magni, vero optio doloremque provident, ducimus
+                                consectetur fugit dolore necessitatibus nam quo totam sit illum. Eligendi nisi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
